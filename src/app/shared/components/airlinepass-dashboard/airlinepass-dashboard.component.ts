@@ -27,6 +27,6 @@ export class AirlinepassDashboardComponent implements OnInit {
     
     this.airlinePassArr = this.newArray;
 
-    console.log(this.airlinePassArr);
+    // console.log(this.airlinePassArr);
   }  
 }
