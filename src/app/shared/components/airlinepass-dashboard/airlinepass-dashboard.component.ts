@@ -17,11 +17,11 @@ export class AirlinepassDashboardComponent implements OnInit {
   }
 
   onSendObj(eve : any){
-    console.log(eve);
+    // console.log(eve);
     this.sendObjToApp.emit(eve);
     
     this.newArray = this.airlinePassArr.filter((ele : any) => {
-      console.log(ele);      
+      // console.log(ele);      
       return ele.id != eve;
     })
     
